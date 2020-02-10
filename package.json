@@ -1,0 +1,31 @@
+{
+  "name": "react-prims",
+  "version": "1.0.0",
+  "description": "react-prims",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "compile": "babel src --ignore __tests__ --out-dir lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-external-helpers": "^7.8.3",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-stage-1": "^7.8.3"
+  }
+}
