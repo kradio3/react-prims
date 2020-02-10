@@ -1,6 +1,6 @@
 {
   "name": "react-prims",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-prims",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/index.js",
   "files": [
     "lib/"
