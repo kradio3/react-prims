@@ -8,6 +8,7 @@ export const Div = ({
   hidden = false,
   ...rest
 }) => {
+
   if ( hidden ) {
     return null;
   }

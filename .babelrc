@@ -3,14 +3,17 @@
     "@babel/preset-react",
     [
       "@babel/preset-env",
-      {
-        "targets": {
-          "esmodules": true
-        }
+    {
+      "targets": {
+        "esmodules": true
       }
+    }
     ]
   ],
   "plugins": [
     "@babel/plugin-proposal-export-default-from",
   ],
+  "ignore": [
+    "**/*.test.js"
+  ]
 }
